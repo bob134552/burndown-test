@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
       - run: npm i
       - name: Generate burndown chart
-        uses: ./
+        uses: szenius/notion-burndown@1.0.0
         with:
           NOTION_KEY: ${{ secrets.NOTION_KEY }}
           NOTION_DB_BACKLOG: b14e5998054f41429046250a60cff671
