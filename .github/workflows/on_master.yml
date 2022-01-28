@@ -19,8 +19,8 @@ jobs:
       - name: Commit dist files
         continue-on-error: true
         run: |
-          git config --local user.email "ting.szeying@gmail.com"
-          git config --local user.name "szenius"
+          git config --local user.email "bob134552@hotmail.com"
+          git config --local user.name "bob134552"
           git add ./dist
           git commit -m "build: update dist files"
       - name: Push changes
